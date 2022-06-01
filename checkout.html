@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ecommerce Dynamic Web Template</title>
+    <title>Checkout | Ecommerce Dynamic Web Template</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
     <meta http-equiv="Content-Language" content="en-US" />
@@ -29,6 +29,9 @@
     <!-- Main css link -->
     <link type="text/css" rel="stylesheet" href="css/main.css" />
     <link rel="icon" href="images/logo.png" />
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     
 </head>
 <body>
@@ -1015,433 +1018,128 @@
 
 
 <div class="content-area">
-    <div class="main-slider">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="images/slider/slider1.jpg" alt="Chania">
-                <div class="carousel-caption">
-                    <div class="slide-header-text wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Get the most latest and update dress from here...</div> <br />
-                    <a href="products.html" class="btn btn-red slider-link wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Buy this Now</a>
-                </div>
-            </div>
-
-            <div class="item">
-              <img src="images/slider/slider2.jpg" alt="Chania">
-              <div class="carousel-caption">
-                <div class="slide-header-text wow rotateIn" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Turn your looking into an easy price</div> <br />
-                <a href="products.html" class="btn btn-red slider-link wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Buy this from your limit</a>
-            </div>
-        </div>
-
-        <div class="item">
-          <img src="images/slider/slider3.jpg" alt="Flower">
-          <div class="carousel-caption">
-           <div class="slide-header-text wow rollIn" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">A place of all electronics products</div> <br />
-           <a href="products.html" class="btn btn-red slider-link wow zoomIn" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">View Our All Products</a>
-       </div>
-   </div>
-
-   <div class="item">
-      <img src="images/slider/slider4.jpg" alt="Flower">
-      <div class="carousel-caption">
-          <div class="slide-header-text wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Get the most latest and update dress from here...</div> <br />
-          <a href="products.html" class="btn btn-red slider-link wow slideInRight" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Buy this Now</a>
-      </div>
-  </div>
-</div>
-
-<!-- Left and right controls -->
-<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-
-</a>
-
-<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-</a>
-
-</div>
-</div> <!-- End Main slider class -->
-
-
-<div class="featured-products">
     <div class="container">
-        <h2 class="title-div wow slideInLeft pull-left" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Our Top Featured products</h2><div class="clear"></div>
-        <div class="featured-navigation pull-right">
-            <span class="">
-                <a class="owl-prev owl-navigaiton"><i class="fa fa-angle-double-right"></i></a>
-            </span>
-            <span class="stop">
-                <a class="owl-next owl-navigaiton">||</a>
-            </span>
-            <span class="">
-                <a class="owl-next owl-navigaiton"><i class="fa fa-angle-double-left"></i></a>
-            </span>
-            
-        </div>
-        <div class="clear"></div>
-        <div class="featured-items">
-            <!-- Set up your HTML -->
-            <div class="owl-carousel">
-
-                <div class="item featured1">
-                    <div class="item-full animated featured1-inner  width0">
-                        <a href="products.html"><h4>Digital Camera</h4></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                        <h5>200$</h5>
-                        <a href="cart.html" class="btn btn-cart">
-                            Add To Cart
-                        </a>
-                        
-                    </div>
-                    <a href="products.html">
-                        <img src="images/product-slide/product3.png" class="img img-responsive" alt="Product1">
-                    </a>
-                </div> <!-- Single Featured Item -->            
-                
-                <div class="item featured2">
-                    <div class="item-full animated featured2-inner  width0">
-                        <a href="products.html"><h4>Digital Camera</h4></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                        <h5>200$</h5>
-                        <a href="cart.html" class="btn btn-cart">
-                            Add To Cart
-                        </a>
-                        
-                    </div>
-                    <a href="products.html">
-                        <img src="images/product-slide/product1.png" class="img img-responsive" alt="Product1">
-                    </a>
-                </div> <!-- Single Featured Item -->                
-                
-                <div class="item featured3">
-                    <div class="item-full animated featured3-inner  width0">
-                        <a href="products.html"><h4>Digital Camera</h4></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                        <h5>200$</h5>
-                        <a href="cart.html" class="btn btn-cart">
-                            Add To Cart
-                        </a>
-                        
-                    </div>
-                    <a href="products.html">
-                        <img src="images/product-slide/product2.png" class="img img-responsive" alt="Product1">
-                    </a>
-                </div> <!-- Single Featured Item -->                
-                
-                <div class="item featured4">
-                    <div class="item-full animated featured4-inner  width0">
-                        <a href="products.html"><h4>Digital Camera</h4></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                        <h5>200$</h5>
-                        <a href="cart.html" class="btn btn-cart">
-                            Add To Cart
-                        </a>
-                        
-                    </div>
-                    <a href="products.html">
-                        <img src="images/product-slide/product3.png" class="img img-responsive" alt="Product1">
-                    </a>
-                </div> <!-- Single Featured Item -->                
-                
-                <div class="item featured5">
-                    <div class="item-full animated featured5-inner  width0">
-                        <a href="products.html"><h4>Digital Camera</h4></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                        <h5>200$</h5>
-                        <a href="cart.html" class="btn btn-cart">
-                            Add To Cart
-                        </a>
-                        
-                    </div>
-                    <a href="products.html">
-                        <img src="images/product-slide/product4.png" class="img img-responsive" alt="Product1">
-                    </a>
-                </div> <!-- Single Featured Item -->
-
-
-                
-                
+        <div class="checkout-page">
+            <h2>Checkout this process</h2>
+            <div class="checkout-top-ok">
+                <span id="check-one-top">1</span><span class="check-dots">.....</span>
+                <span id="check-two-top">2</span><span class="check-dots">.....</span>
+                <span id="check-three-top">3</span>
             </div>
-        </div>
-    </div>
-</div> <!--End Featured products Div-->
+            <form action="" method="POST" class="form-horizontal" role="form" id="checkoutForm">
 
-
-<div class="latest-products">
-    <div class="container">
-        <h2 class="title-div wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Our Latest Products available</h2>
-        <div class="products">
-            <div class="row">
-
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product1.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
+                <div id="check1">
+                    <h3>Basic Informations</h3>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="checkoutEmail">Email: *</label>
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control inputs" id="checkoutEmail" placeholder="Enter email" required/>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="checkoutContact">Contact: *</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control inputs" id="checkoutContact" placeholder="01951233084 or +8801951233084"  required/> 
+                        <span class="input-hint">Phone number must be a Bangladeshi number like +8801951233084 or 01951233084 [Only for test and you can add your regexp and make it difference]</span>
                         </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->  
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product2.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->  
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product3.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->  
-                
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product4.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->                 
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product1.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->                 
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product4.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->                 
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product2.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->                 
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product3.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] --> 
-
-                <div class="clearfix"></div>
-
-                
-
-
-
-            </div> <!-- End Latest products row-->
-            <a href="products.html" class="btn btn-blue btn-lg pull-right btn-more wow slideInRight" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10"> 
-                <span>See More products.. </span>
-            </a>
-            <div class="clear"></div>
-        </div> <!-- End products div-->
-    </div> <!-- End container latest products-->
-</div>  <!-- End Latest products -->
-
-<div class="services-area">
-    <div class="services">
-        <div class="container">
-            <div class="ftr-toprow">
-                <div class="col-md-4 ftr-top-grids wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">
-                    <div class="ftr-top-left pull-left">
-                        <i class="fa fa-truck" aria-hidden="true"></i>
-                    </div> 
-                    <div class="ftr-top-right">
-                        <h4>FREE DELIVERY</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus justo ac </p>
-                    </div> 
-                    <div class="clearfix"> </div>
-                </div> 
-                <div class="col-md-4 ftr-top-grids wow slideInUp" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">
-                    <div class="ftr-top-left pull-left">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                    </div> 
-                    <div class="ftr-top-right">
-                        <h4>CUSTOMER CARE</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus justo ac </p>
-                    </div> 
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="col-md-4 ftr-top-grids wow slideInRight" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">
-                    <div class="ftr-top-left pull-left">
-                        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                    </div> 
-                    <div class="ftr-top-right">
-                        <h4>GOOD QUALITY</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus justo ac </p>
                     </div>
-                    <div class="clearfix"> </div>
-                </div> 
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-    </div>
-</div> <!-- End Service -->
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                            <input type="button" class="btn btn-info pull-right  margin-top-20 checkbtn1" name="submit_check1" value="Next..."/>
+                            <div class="clearfix"></div> 
+                        </div>
+                    </div>
+                </div> <!-- End check1 -->
+
+
+
+                <div id="check2" class="hidden">
+
+                    <h3>Shipping Address Informations</h3>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="shipping_name">Shipping Name: *</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control inputs" id="shipping_name" value="Maniruzzaman Akash" placeholder="Enter Your Shipping Name"  required/> 
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="shipping_contact">Shipping Contact: *</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control inputs" value="+8801951233084" id="shipping_contact" placeholder="Enter Your Shipping Contact No"  required/> 
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="shipping_primary_address">Shipping Primary Address: *</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control inputs" id="shipping_primary_address" placeholder="Enter Your Shipping primary Address" required/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="shipping_secondary_address">Shipping secondary Address:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control inputs" id="shipping_secondary_address" placeholder="Enter Your Shipping Secondary or optional Address" /> 
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="shipping_nearest_city">Select Nearest state: *</label>
+                        <div class="col-sm-10">
+                            <select name="state" class="form-control inputs"  id="shipping_nearest_city" required>
+                                <option value="">Select a state</option>
+                                <option value="London">London</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Mymensingh">Mymensingh</option>
+                                <option value="Patuakhali">Patuakhali</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                            <input type="button" class="btn btn-info pull-right  margin-top-20 checkbtn2" name="submit_check2" value="Next..."/>
+
+                            <input type="button" class="btn btn-danger pull-right  margin-top-20 margin-right-20 backToCheck1" name="backToCheck1" value="Back"/>
+                            <div class="clearfix"></div> 
+                        </div>
+                    </div>
+                </div> <!-- End check2 -->
+                <div id="check3" class="hidden">
+
+                    <h3>Payment Method Informations</h3>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="address_primary">Select Payment Option: *</label>
+                        <div class="col-sm-10">
+                            <select name="payments" id="payments" class="form-control inputs"  required>
+                                <option value="">Select A payment method</option>
+                                <option value="payment_paypal">Paypal</option>
+                                <option value="payment_stripe">Stripe</option>
+                                <option value="payment_bkash">Bkash</option>
+                            </select>
+                            <div class="payment-div payment-div-paypal hidden">
+                                <i class="fa fa-cc-paypal"></i> <br />
+                                <a href="paypal.php?id=test" class="btn btn-lg btn-yellow">Payment Via Paypal Now</a>
+                            </div>
+                            <div class="payment-div payment-div-stripe hidden">
+                                <i class="fa fa-cc-stripe"></i> <br />
+                                <a href="stripe.php?id=test" class="btn btn-lg btn-yellow">Payment Via Stripe Now</a>
+                            </div>
+                            <div class="payment-div payment-div-bkash hidden">
+                                <i>Bkash</i> <br />
+                                <a href="bkash.php?id=test" class="btn btn-lg btn-yellow">Payment Via Bkash Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                            <input type="submit" class="btn btn-info pull-right  margin-top-20" name="submit_check1" value="Finish Order"/>
+                            <div class="clearfix"></div> 
+                        </div>
+                    </div>
+                </div> <!-- End check3 -->
+
+            </form>
+        </div> <!--End Checkout page -->
+    </div> <!-- End Container -->
+
 
 </div> <!-- End content Area class -->
 
@@ -1464,7 +1162,7 @@
                         <li><i class="fa fa-envelope-o"></i> <a href="mailto:manirujjamanakash@gmail.com"> manirujjamanakash@gmail.com</a></li>
                     </ul> 
                 </div>
-                
+
 
             </div>
             <div class="col-md-8">
@@ -1516,7 +1214,7 @@
                 </div>
             </div>
         </div>
-        
+
 
 
     </div>
@@ -1540,32 +1238,194 @@
 
 
 <!-- Scripts -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
 
 <script type="text/javascript">
-    jQuery(document).ready(function() {
-        // alert('test message');
-
-        // var bd_phone_pattern = /^(?:\+88|01)?\d{11}$/;
-        // var contact1 = "01951233084";
-        // var contact2 = "+8801951233084";
-        // alert(bd_phone_pattern.test(contact1));
-        // if (bd_phone_pattern.test(contact1)) {
-        //     alert('Regexp Has Matched');
-        // }else{
-        //     alert('Regexp Hasn\'t Matched');
-        // }
-    });
+    // $("#checkoutForm").validate();
 </script>
 
 
 
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript">
+  //Scripts for checkout functions one by one input fields.
+  jQuery(document).ready(function() {
 
-<script src="js/wow.min.js"></script>
 
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/webslidemenu.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-</body>
-</html>
+
+    $('.checkbtn1').click(function() {
+
+
+
+
+        var email = $('#checkoutEmail').val();
+        var contact = $('#checkoutContact').val();
+        var pass_check1 = false;
+
+        if(email == null || email == "" || ((/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i).test(email) == false)) 
+        {
+            pass_check1 = false;
+            $('#checkoutEmail').focus();
+            $('#checkoutEmail').addClass('error-input');
+        }else{
+            pass_check1 = true;
+            $('#checkoutContact').focus();
+            $('#checkoutEmail').removeClass('error-input');
+            $('#checkoutEmail').addClass('success-input');
+
+            //pattern for Bangladeshi phone number like +8801951233084 [Not complete]
+            // var bd_phone_pattern = "/^(?:\+88|01)?(?:\d{11}|\d{13})$/";
+            var bd_phone_pattern = /^(?:\+88|01)?\d{11}$/;
+
+            if(contact == null || contact == "" || bd_phone_pattern.test(contact) != true) 
+            {
+                pass_check1 = false;
+                $('#checkoutContact').focus();
+                $('#checkoutContact').addClass('error-input');
+            }else{
+                pass_check1 = true;
+                $('#checkoutContact').removeClass('error-input');
+                $('#checkoutContact').addClass('success-input');
+
+            }
+        }
+
+
+
+        if (pass_check1 != false) {
+            //Focus on next div's element and remove hidden class from it.
+            
+            // $('#check1').addClass('animated fadeOut');
+            $('#check1').addClass('hidden');
+            $('#check-one-top').html('<i class="fa fa-check"></i>');
+            $('#check-one-top').css({"background-color": "#00BBB5"});
+            $('#check-two-top').css({"background-color": "#004C48"});
+            $('#check2').removeClass('hidden');
+            $('#check2').show('slow');
+            $('#shipping_name').focus();
+        }
+
+    });
+
+
+
+    //Onclick Check button 2
+    $('.checkbtn2').click(function() {
+        var shipping_name = $('#shipping_name').val();
+        var shipping_contact = $('#shipping_contact').val();
+        var shipping_primary_address = $('#shipping_primary_address').val();
+        var shipping_secondary_address = $('#shipping_secondary_address').val();
+        var shipping_nearest_city = $('#shipping_nearest_city').val();
+        var pass_check2 = false;
+        if (shipping_name === null || shipping_name === "") {
+            $('#shipping_name').focus();
+            $('#shipping_name').addClass('error-input');
+        }else{
+            $('#shipping_name').addClass('success-input');
+            if (shipping_contact === null || shipping_contact === "") {
+                $('#shipping_name').focus();
+                $('#shipping_name').addClass('error-input');
+            }else{
+                $('#shipping_contact').addClass('success-input');
+                if (shipping_primary_address === null || shipping_primary_address === "") {
+                    $('#shipping_primary_address').focus();
+                    $('#shipping_primary_address').addClass('error-input');
+                }else{
+
+                    $('#shipping_primary_address').addClass('success-input');
+                    $('#shipping_secondary_address').addClass('success-input');
+                    if (shipping_nearest_city === null || shipping_nearest_city === "") {
+                        $('#shipping_nearest_city').focus();
+                        $('#shipping_nearest_city').addClass('error-input');
+                    }else{
+                        pass_check2 = true;
+                    }
+                }
+            }
+        }
+
+
+
+        if (pass_check2 != false) {
+            $('#check2').addClass('hidden');
+            $('#check-two-top').html('<i class="fa fa-check"></i>');
+            $('#check-two-top').css({"background-color": "#00BBB5"});
+            $('#check-three-top').css({"background-color": "#004C48"});
+            $('#check3').removeClass('hidden');
+            $('#check3').show('slow');
+            $('#payments').focus();
+        }
+
+
+    });
+
+
+    $('.backToCheck1').click(function() {
+        pass_check1 = false;
+        $('#check1').removeClass('hidden');
+        $('#check2').addClass('hidden');
+
+        $('#check-one-top').html('1');
+        $('#check-one-top').css({"background-color": "#004C48"});
+        $('#check-two-top').css({"background-color": "#00BBB5"});
+    });    
+
+    $('.backToCheck2').click(function() {
+        pass_check2 = false;
+        $('#check2').removeClass('hidden');
+        $('#check3').addClass('hidden');
+
+        $('#check-two-top').html('1');
+        $('#check-two-top').css({"background-color": "#004C48"});
+        $('#check-three-top').css({"background-color": "#00BBB5"});
+    });
+
+
+                // $('.inputs').keydown(function(e) {
+                //     if (e.which === 13) {
+                //         var index = $('.inputs').index(this) + 1;
+                //         $('.inputs').eq(index),focus();
+                //     }
+                // });
+                
+                // Onclick Payment select option payment list will apear 
+                
+                $('#payments').change(function(){
+                    var payment_method = $('#payments').val();
+
+                    if (payment_method === "payment_paypal") {
+                        $('.payment-div-paypal').removeClass('hidden');
+                        $('.payment-div-paypal').addClass('animated slideInLeft');
+                        $('.payment-div-bkash').addClass('hidden');
+                        $('.payment-div-stripe').addClass('hidden');
+                    }
+                    if (payment_method === "payment_stripe") {
+                        $('.payment-div-stripe').removeClass('hidden');
+                        $('.payment-div-stripe').addClass('animated slideInUp');
+                        $('.payment-div-paypal').addClass('hidden');
+                        $('.payment-div-bkash').addClass('hidden');
+                    }
+                    if (payment_method === "payment_bkash") {
+                        $('.payment-div-bkash').removeClass('hidden');
+                        $('.payment-div-bkash').addClass('animated slideInRight');
+                        $('.payment-div-paypal').addClass('hidden');
+                        $('.payment-div-stripe').addClass('hidden');
+                    }
+
+                });
+
+
+            });
+
+        </script>
+
+
+
+        <script src="js/wow.min.js"></script>
+
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/webslidemenu.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+    </html>

@@ -21,7 +21,8 @@
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
     <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
 
-
+    <!-- Single Page product show with zoom -->
+    <link rel="stylesheet" type="text/css" href="css/flexslider.css">
 
     <!-- Mega navigation bar -->
     <link rel="stylesheet" type="text/css" media="all" href="css/webslidemenu.css" />
@@ -34,7 +35,7 @@
 <body>
     <div class="wrapper">
         <!-- Header part  -->
-        <div class="header" id="top">
+        <div class="header">
             <!-- Start Top Header -->
             <div class="top-header">
                 <div class="top-header-left pull-left">
@@ -45,25 +46,25 @@
                         <ul>
                             <li class="top-header-list">
                                 <div class="dropdown">
-                                    <a href="account.html" class="link dropdown-toggle pointer" id="menu1" data-toggle="dropdown">
+                                    <a class="link dropdown-toggle pointer" id="menu1" data-toggle="dropdown">
                                         <span class="icon"><i class="fa fa-user"></i></span>
                                         My Account
                                         <span class="caret"></span>
                                     </a>
                                     <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="cart.html">My Orders</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="account.html">Wallets</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="login.html">Logout</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Orders</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Wallets</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Logout</a></li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="top-header-list">
-                                <a href="account.html">
+                                <a href="#">
                                     <span class="icon"><i class="fa fa-credit-card"></i></span>
                                     Credit Card
                                 </a>
                             </li>
-                            <li class="top-header-list"><a href="faq.html">
+                            <li class="top-header-list"><a href="#">
                                 <span class="icon"><i class="fa fa-question-circle"></i></span>
                                 Helps
                             </a></li>
@@ -94,7 +95,7 @@
                     </div>
 
                     <div class="header-cart">
-                        <a href="cart.html" class="cart-link" data-toggle="modal" data-target="#cart-item"><i class="fa fa-cart-arrow-down"></i></a>
+                        <a href="#" class="cart-link" data-toggle="modal" data-target="#cart-item"><i class="fa fa-cart-arrow-down"></i></a>
                         <span class="number-of-cart">20</span>
                     </div>
 
@@ -148,7 +149,7 @@
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel
                             </button>
-                            <a href="cart.html" class="btn btn-yellow">Check Out</a>
+                            <a href="checkout.html" class="btn btn-yellow">Check Out</a>
                         </div>
                     </div>
 
@@ -166,7 +167,7 @@
     <div class="header-navigation">
         <div class="wsmenucontainer clearfix">
           <div class="overlapblackbg"></div>
-          <div class="wsmobileheader clearfix"> <a href="#" id="wsnavtoggle" class="animated-arrow"><span></span></a> <a class="smallogo"><img src="images/logo.png" alt=""></a></div>
+          <div class="wsmobileheader clearfix"> <a id="wsnavtoggle" class="animated-arrow"><span></span></a> <a class="smallogo"><img src="images/logo.png" alt=""></a> <a class="callusicon" href="tel:123456789"><span class="fa fa-phone"></span></a> </div>
 
 
           <div class="headerfull"> 
@@ -184,25 +185,25 @@
                                 <div class="wstmegamenucoll clearfix">
                                   <div class="wstheading">Women's Clothing</div>
                                   <ul class="wstliststy01">
-                                      <li><a href="products.html">Sleepwear &amp; Robes</a></li>
-                                      <li><a href="products.html">Shapewear </a></li>
-                                      <li><a href="products.html">Tops &amp; shirts</a></li>
-                                      <li><a href="products.html">Sweatshirts</a></li>
-                                      <li><a href="products.html">Fashion Hoodies <span class="wstmenutag greentag">New</span></a></li>
-                                      <li><a href="#">Jeans &amp; Trousers</a></li>
-                                      <li><a href="#">Capris and Shorts <span class="wstmenutag bluetag">Trending</span></a></li>
-                                      <li><a href="#">Leggings</a></li>
-                                      <li><a href="#">Swimsuits &amp; Cover Ups</a></li>
-                                      <li><a href="#">Lingerie, Sleep &amp; Lounge</a></li>
-                                      <li><a href="#">Inner &amp; Nightwear</a> <span class="wstmenutag redtag">Sale</span></li>
-                                      <li><a href="#">Jumpsuits, Rompers &amp; Overalls</a></li>
-                                      <li><a href="#">Coats, Jackets &amp; Vests</a></li>
-                                      <li><a href="#">Suiting &amp; Blazers </a></li>
-                                      <li><a href="#">Socks &amp; Hosiery</a></li>
-                                  </ul>
-                                  <div class="cl" style="height:8px;"></div>
-                                  <div class="wstheading">Handbags &amp; Wallets</div>
-                                  <ul class="wstliststy01">
+                                    <li><a href="#">Sleepwear &amp; Robes</a></li>
+                                    <li><a href="#">Shapewear </a></li>
+                                    <li><a href="#">Tops &amp; shirts</a></li>
+                                    <li><a href="#">Sweatshirts</a></li>
+                                    <li><a href="#">Fashion Hoodies <span class="wstmenutag greentag">New</span></a></li>
+                                    <li><a href="#">Jeans &amp; Trousers</a></li>
+                                    <li><a href="#">Capris and Shorts <span class="wstmenutag bluetag">Trending</span></a></li>
+                                    <li><a href="#">Leggings</a></li>
+                                    <li><a href="#">Swimsuits &amp; Cover Ups</a></li>
+                                    <li><a href="#">Lingerie, Sleep &amp; Lounge</a></li>
+                                    <li><a href="#">Inner &amp; Nightwear</a> <span class="wstmenutag redtag">Sale</span></li>
+                                    <li><a href="#">Jumpsuits, Rompers &amp; Overalls</a></li>
+                                    <li><a href="#">Coats, Jackets &amp; Vests</a></li>
+                                    <li><a href="#">Suiting &amp; Blazers </a></li>
+                                    <li><a href="#">Socks &amp; Hosiery</a></li>
+                                </ul>
+                                <div class="cl" style="height:8px;"></div>
+                                <div class="wstheading">Handbags &amp; Wallets</div>
+                                <ul class="wstliststy01">
                                     <li><a href="#">Clutches</a> </li>
                                     <li><a href="#">Cross-Body Bags</a> </li>
                                     <li><a href="#">Evening Bags</a> </li>
@@ -992,19 +993,17 @@
 
 <li class="wsshopmyaccount clearfix"><span class="wsmenu-click"><i class="wsmenu-arrow fa fa-angle-down"></i></span><a href="#" class="wtxaccountlink"><i class="fa fa-align-justify"></i>My Account <i class="fa  fa-angle-down"></i></a>
     <ul class="wsmenu-submenu">
-      <li><a href="account.html"><i class="fa fa-user"></i>View Profile</a></li>
-      <li><a href="register.html"><i class="fa fa-black-tie"></i>Sign Up</a></li>
-      <li><a href="login.html"><i class="fa fa-sign-in"></i>Login</a></li>
-      <li><a href="account.html#wishlist"><i class="fa fa-heart"></i>My Wishlist</a></li>
-      <li><a href="faq.html"><i class="fa fa-question-circle"></i>Help Center</a></li>
-      <li><a href="login.html"><i class="fa fa-sign-out"></i>Logout</a></li>
+      <li><a href="#"><i class="fa fa-black-tie"></i>View Profile</a></li>
+      <li><a href="#"><i class="fa fa-heart"></i>My Wishlist</a></li>
+      <li><a href="#"><i class="fa fa-bell"></i>Notnification</a></li>
+      <li><a href="#"><i class="fa fa-question-circle"></i>Help Center</a></li>
+      <li><a href="#"><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
 </li>
 </ul>
 </nav>
 </div>
 <!--Menu HTML Code--> 
-
 </div>
 </div>
 
@@ -1014,434 +1013,284 @@
 <!-- Header part  -->
 
 
-<div class="content-area">
-    <div class="main-slider">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
+<div class="content-area prodcuts">
+
+    <div class="container">
+        <ol class="breadcrumb breadcrumb1">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li class="active">Digital Camera</li>
         </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="images/slider/slider1.jpg" alt="Chania">
-                <div class="carousel-caption">
-                    <div class="slide-header-text wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Get the most latest and update dress from here...</div> <br />
-                    <a href="products.html" class="btn btn-red slider-link wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Buy this Now</a>
+        <div class="single-product">
+            <div class="row" id="">
+                <div class="col-md-6 single-top-left">  
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li data-thumb="images/products/product_1_front.jpg">
+                                <div class="thumb-image detail_images"> <img src="images/products/product_1_front.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+                            </li>
+                            <li data-thumb="images/products/product_1_side.jpg">
+                                <div class="thumb-image"> <img src="images/products/product_1_side.jpg" data-imagezoom="true" class="img-responsive" alt="" /> </div>
+                            </li>
+                            <li data-thumb="images/products/product_1_work.jpg">
+                                <div class="thumb-image"> <img src="images/products/product_1_work.jpg" data-imagezoom="true" class="img-responsive" alt="" />  </div>
+                            </li> 
+                        </ul>
+                    </div>
                 </div>
+                <div class="col-md-6 single-top-right">
+                    <h3 class="item_name">Electric Snow Blower</h3>
+                    <p>Processing Time: Item will be shipped out within 2-3 working days. </p>
+                    <div class="single-rating">
+                        <ul>
+                            <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                            <li class="rating">20 reviews</li>
+                            <li><a href="#">Add your review</a></li>
+                        </ul> 
+                    </div>
+                    <div class="single-price">
+                        <ul>
+                            <li class="product-price">$540</li>  
+                            <li><del>$600</del></li> 
+                            <li><span class="off">10% OFF</span></li> 
+                            <li>Ends on: June,5th</li>
+                            <li><a href="#"><i class="fa fa-gift" aria-hidden="true"></i> Coupon</a></li>
+                        </ul>   
+                    </div> 
+                    <p class="single-price-text">Fusce a egestas nibh, eget ornare erat. Proin placerat, urna et consequat efficitur, sem odio blandit enim, sit amet euismod turpis est mattis lectus. Vestibulum maximus quam et quam egestas imperdiet. In dignissim auctor viverra. </p>
+                    <form action="#" method="post">
+                        <input type="hidden" name="cmd" value="_cart" />
+                        <input type="hidden" name="add" value="1" /> 
+                        <input type="hidden" name="w3ls_item" value="Snow Blower" /> 
+                        <input type="hidden" name="amount" value="540.00" /> 
+                        <button type="submit" class="btn btn-red" ><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+                        <button class="btn btn-primary"><i class="fa fa-heart-o" aria-hidden="true"></i> Add to Wishlist</button>
+                    </form>
+                    
+                </div>
+                <div class="clearfix"> </div>  
+            </div>
+            <div class="single-page-icons social-icons"> 
+                <ul>
+                    <li><h4>Share on</h4></li>
+                    <li><a href="#" class="fa fa-facebook-square icon facebook"> </a></li>
+                    <li><a href="#" class="fa fa-twitter-square icon twitter"> </a></li>
+                    <li><a href="#" class="fa fa-google-plus-square icon googleplus"> </a></li>
+                    <li><a href="#" class="fa fa-rss-square icon rss"> </a></li> 
+                </ul>
             </div>
 
-            <div class="item">
-              <img src="images/slider/slider2.jpg" alt="Chania">
-              <div class="carousel-caption">
-                <div class="slide-header-text wow rotateIn" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Turn your looking into an easy price</div> <br />
-                <a href="products.html" class="btn btn-red slider-link wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Buy this from your limit</a>
-            </div>
-        </div>
+            <div class="single-product-everything">
 
-        <div class="item">
-          <img src="images/slider/slider3.jpg" alt="Flower">
-          <div class="carousel-caption">
-           <div class="slide-header-text wow rollIn" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">A place of all electronics products</div> <br />
-           <a href="products.html" class="btn btn-red slider-link wow zoomIn" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">View Our All Products</a>
-       </div>
-   </div>
+                <div class="single-extra-div">
+                    <a data-toggle="collapse" class="pointer main" aria-expanded="true" data-target="#productDescriptionCollapse" aria-controls="#productDescriptionCollapse">
+                        <span class="pull-left title-sidebar"><i class="fa fa-info-circle"></i> Product Description</span>
 
-   <div class="item">
-      <img src="images/slider/slider4.jpg" alt="Flower">
-      <div class="carousel-caption">
-          <div class="slide-header-text wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Get the most latest and update dress from here...</div> <br />
-          <a href="products.html" class="btn btn-red slider-link wow slideInRight" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Buy this Now</a>
-      </div>
-  </div>
-</div>
-
-<!-- Left and right controls -->
-<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-
-</a>
-
-<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-</a>
-
-</div>
-</div> <!-- End Main slider class -->
-
-
-<div class="featured-products">
-    <div class="container">
-        <h2 class="title-div wow slideInLeft pull-left" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Our Top Featured products</h2><div class="clear"></div>
-        <div class="featured-navigation pull-right">
-            <span class="">
-                <a class="owl-prev owl-navigaiton"><i class="fa fa-angle-double-right"></i></a>
-            </span>
-            <span class="stop">
-                <a class="owl-next owl-navigaiton">||</a>
-            </span>
-            <span class="">
-                <a class="owl-next owl-navigaiton"><i class="fa fa-angle-double-left"></i></a>
-            </span>
-            
-        </div>
-        <div class="clear"></div>
-        <div class="featured-items">
-            <!-- Set up your HTML -->
-            <div class="owl-carousel">
-
-                <div class="item featured1">
-                    <div class="item-full animated featured1-inner  width0">
-                        <a href="products.html"><h4>Digital Camera</h4></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                        <h5>200$</h5>
-                        <a href="cart.html" class="btn btn-cart">
-                            Add To Cart
-                        </a>
-                        
-                    </div>
-                    <a href="products.html">
-                        <img src="images/product-slide/product3.png" class="img img-responsive" alt="Product1">
+                        <span class="pull-right"><i class="fa fa-plus"></i></span>
+                        <span class="pull-right"><i class="fa fa-minus"></i></span>
+                        <div class="clearfix"></div>
                     </a>
-                </div> <!-- Single Featured Item -->            
-                
-                <div class="item featured2">
-                    <div class="item-full animated featured2-inner  width0">
-                        <a href="products.html"><h4>Digital Camera</h4></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                        <h5>200$</h5>
-                        <a href="cart.html" class="btn btn-cart">
-                            Add To Cart
-                        </a>
-                        
+                    <div id="productDescriptionCollapse" class="collapse in collapseDiv">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-                    <a href="products.html">
-                        <img src="images/product-slide/product1.png" class="img img-responsive" alt="Product1">
+                </div> <!-- End single product extra div -->
+
+                <div class="single-extra-div">
+                    <a data-toggle="collapse" class="pointer main" aria-expanded="true" data-target="#productReviewCollapse" aria-controls="#productReviewCollapse">
+                        <span class="pull-left title-sidebar"> <i class="fa fa-check-square-o"></i>
+                            Product Reviews <span class="badge">2</span>
+                        </span>
+
+                        <span class="pull-right"><i class="fa fa-plus"></i></span>
+                        <span class="pull-right"><i class="fa fa-minus"></i></span>
+                        <div class="clearfix"></div>
                     </a>
-                </div> <!-- Single Featured Item -->                
-                
-                <div class="item featured3">
-                    <div class="item-full animated featured3-inner  width0">
-                        <a href="products.html"><h4>Digital Camera</h4></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                        <h5>200$</h5>
-                        <a href="cart.html" class="btn btn-cart">
-                            Add To Cart
-                        </a>
-                        
+                    <div id="productReviewCollapse" class="collapse collapseDiv">
+                        <div class="review">
+                            <h4>Polash Rana :</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+                        </div>
+                        <div class="review">
+                        <h4>Nur Ahmed :</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+                        </div>
                     </div>
-                    <a href="products.html">
-                        <img src="images/product-slide/product2.png" class="img img-responsive" alt="Product1">
+                </div> <!-- End single product extra div -->
+
+                <div class="single-extra-div">
+                    <a data-toggle="collapse" class="pointer main" aria-expanded="true" data-target="#productHelpCollapse" aria-controls="#productHelpCollapse">
+                        <span class="pull-left title-sidebar"> <i class="fa fa-question-circle"></i> Help </span>
+
+                        <span class="pull-right"><i class="fa fa-plus"></i></span>
+                        <span class="pull-right"><i class="fa fa-minus"></i></span>
+                        <div class="clearfix"></div>
                     </a>
-                </div> <!-- Single Featured Item -->                
-                
-                <div class="item featured4">
-                    <div class="item-full animated featured4-inner  width0">
-                        <a href="products.html"><h4>Digital Camera</h4></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                        <h5>200$</h5>
-                        <a href="cart.html" class="btn btn-cart">
-                            Add To Cart
-                        </a>
-                        
+                    <div id="productHelpCollapse" class="collapse collapseDiv">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-                    <a href="products.html">
-                        <img src="images/product-slide/product3.png" class="img img-responsive" alt="Product1">
-                    </a>
-                </div> <!-- Single Featured Item -->                
+                </div> <!-- End single product extra div -->
                 
-                <div class="item featured5">
-                    <div class="item-full animated featured5-inner  width0">
-                        <a href="products.html"><h4>Digital Camera</h4></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                        <h5>200$</h5>
-                        <a href="cart.html" class="btn btn-cart">
-                            Add To Cart
-                        </a>
-                        
-                    </div>
-                    <a href="products.html">
-                        <img src="images/product-slide/product4.png" class="img img-responsive" alt="Product1">
-                    </a>
-                </div> <!-- Single Featured Item -->
+
+            </div> <!--End Sidebar title div-->
 
 
-                
-                
-            </div>
-        </div>
+
+
+        </div>  <!--End Single Product Div Everything-->
+
+
     </div>
-</div> <!--End Featured products Div-->
 
-
-<div class="latest-products">
-    <div class="container">
-        <h2 class="title-div wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Our Latest Products available</h2>
-        <div class="products">
-            <div class="row">
-
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product1.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->  
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product2.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->  
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product3.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->  
-                
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product4.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->                 
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product1.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->                 
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product4.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->                 
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product2.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] -->                 
-                <div class="col-md-3">
-                    <div class="product-item">
-                        <div class="product-borde-inner">
-                            <a href="product_single.html">
-                                <img src="images/product-slide/product3.png" class="img img-responsive"/>
-                            </a> 
-
-                            <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
-                                <span class="current-price">
-                                    150$
-                                </span>
-                            </div>
-
-                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
-                                <i class="fa fa-cart-plus"></i>
-                                Add to cart
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div> 
-                </div><!-- End Latest products[single] --> 
-
-                <div class="clearfix"></div>
-
-                
-
-
-
-            </div> <!-- End Latest products row-->
-            <a href="products.html" class="btn btn-blue btn-lg pull-right btn-more wow slideInRight" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10"> 
-                <span>See More products.. </span>
-            </a>
-            <div class="clear"></div>
-        </div> <!-- End products div-->
-    </div> <!-- End container latest products-->
-</div>  <!-- End Latest products -->
-
-<div class="services-area">
-    <div class="services">
+    <div class="featured-products">
         <div class="container">
-            <div class="ftr-toprow">
-                <div class="col-md-4 ftr-top-grids wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">
-                    <div class="ftr-top-left pull-left">
-                        <i class="fa fa-truck" aria-hidden="true"></i>
-                    </div> 
-                    <div class="ftr-top-right">
-                        <h4>FREE DELIVERY</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus justo ac </p>
-                    </div> 
-                    <div class="clearfix"> </div>
-                </div> 
-                <div class="col-md-4 ftr-top-grids wow slideInUp" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">
-                    <div class="ftr-top-left pull-left">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                    </div> 
-                    <div class="ftr-top-right">
-                        <h4>CUSTOMER CARE</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus justo ac </p>
-                    </div> 
-                    <div class="clearfix"> </div>
+            <h2 class="title-div wow slideInLeft pull-left" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Our Top Recommended products</h2><div class="clearfix"></div>
+            <div class="featured-navigation pull-right">
+                <span class="">
+                    <a class="owl-prev owl-navigaiton"><i class="fa fa-angle-double-right"></i></a>
+                </span>
+                <span class="stop">
+                    <a class="owl-next owl-navigaiton">||</a>
+                </span>
+                <span class="">
+                    <a class="owl-next owl-navigaiton"><i class="fa fa-angle-double-left"></i></a>
+                </span>
+
+            </div>
+            <div class="clear"></div>
+            <div class="featured-items">
+                <!-- Set up your HTML -->
+                <div class="owl-carousel">
+
+                    <div class="item featured1">
+                        <div class="item-full animated featured1-inner  width0">
+                            <a href="products.html"><h4>Digital Camera</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                            <h5>200$</h5>
+                            <a href="products.html" class="btn btn-cart">
+                                Add To Cart
+                            </a>
+
+                        </div>
+                        <a href="products.html">
+                            <img src="images/product-slide/product3.png" class="img img-responsive" alt="Product1">
+                        </a>
+                    </div> <!-- Single Featured Item -->            
+
+                    <div class="item featured2">
+                        <div class="item-full animated featured2-inner  width0">
+                            <a href="products.html"><h4>Digital Camera</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                            <h5>200$</h5>
+                            <a href="products.html" class="btn btn-cart">
+                                Add To Cart
+                            </a>
+
+                        </div>
+                        <a href="products.html">
+                            <img src="images/product-slide/product1.png" class="img img-responsive" alt="Product1">
+                        </a>
+                    </div> <!-- Single Featured Item -->                
+
+                    <div class="item featured3">
+                        <div class="item-full animated featured3-inner  width0">
+                            <a href="products.html"><h4>Digital Camera</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                            <h5>200$</h5>
+                            <a href="products.html" class="btn btn-cart">
+                                Add To Cart
+                            </a>
+
+                        </div>
+                        <a href="products.html">
+                            <img src="images/product-slide/product2.png" class="img img-responsive" alt="Product1">
+                        </a>
+                    </div> <!-- Single Featured Item -->                
+
+                    <div class="item featured4">
+                        <div class="item-full animated featured4-inner  width0">
+                            <a href="products.html"><h4>Digital Camera</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                            <h5>200$</h5>
+                            <a href="products.html" class="btn btn-cart">
+                                Add To Cart
+                            </a>
+
+                        </div>
+                        <a href="products.html">
+                            <img src="images/product-slide/product3.png" class="img img-responsive" alt="Product1">
+                        </a>
+                    </div> <!-- Single Featured Item -->                
+
+                    <div class="item featured5">
+                        <div class="item-full animated featured5-inner  width0">
+                            <a href="products.html"><h4>Digital Camera</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                            <h5>200$</h5>
+                            <a href="products.html" class="btn btn-cart">
+                                Add To Cart
+                            </a>
+
+                        </div>
+                        <a href="products.html">
+                            <img src="images/product-slide/product4.png" class="img img-responsive" alt="Product1">
+                        </a>
+                    </div> <!-- Single Featured Item -->
+
+
+
+
                 </div>
-                <div class="col-md-4 ftr-top-grids wow slideInRight" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">
-                    <div class="ftr-top-left pull-left">
-                        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                    </div> 
-                    <div class="ftr-top-right">
-                        <h4>GOOD QUALITY</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus justo ac </p>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div> 
-                <div class="clearfix"> </div>
             </div>
         </div>
     </div>
-</div> <!-- End Service -->
+
+
+
+
+    <div class="services-area">
+        <div class="services">
+            <div class="container">
+                <div class="ftr-toprow">
+                    <div class="col-md-4 ftr-top-grids wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">
+                        <div class="ftr-top-left pull-left">
+                            <i class="fa fa-truck" aria-hidden="true"></i>
+                        </div> 
+                        <div class="ftr-top-right">
+                            <h4>FREE DELIVERY</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus justo ac </p>
+                        </div> 
+                        <div class="clearfix"> </div>
+                    </div> 
+                    <div class="col-md-4 ftr-top-grids wow slideInUp" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">
+                        <div class="ftr-top-left pull-left">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </div> 
+                        <div class="ftr-top-right">
+                            <h4>CUSTOMER CARE</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus justo ac </p>
+                        </div> 
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="col-md-4 ftr-top-grids wow slideInRight" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">
+                        <div class="ftr-top-left pull-left">
+                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                        </div> 
+                        <div class="ftr-top-right">
+                            <h4>GOOD QUALITY</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus justo ac </p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div> 
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End Service -->
 
 </div> <!-- End content Area class -->
 
@@ -1453,7 +1302,7 @@
                 <div class="footer-top-address wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">
                     <div class="header-logo" style=" text-align: center;border-bottom: 1px dotted rgba(247, 12, 38, 0.24);">
                         <a href="index.html">
-                            <img src="images/logo.png" alt="Your Shop Logo" class="img img-responsive" style="max-width: 100px">
+                            <img src="images/logo.png" alt="Your Shop Logo" class="img img-responsive">
                         </a>
                     </div>
                     <div class="clearfix"></div>
@@ -1480,7 +1329,8 @@
                         <h3>Company</h3>
                         <ul>
                             <li><a href="about.html">About Us</a></li>
-                            <li><a href="contact.html">Contact Us</a></li> 
+                            <li><a href="marketplace.html">Marketplace</a></li>  
+                            <li><a href="values.html">Core Values</a></li>  
                             <li><a href="privacy.html">Privacy Policy</a></li>
                         </ul>
                     </div>
@@ -1490,7 +1340,7 @@
                             <li><a href="contact.html">Contact Us</a></li>
                             <li><a href="login.html">Returns</a></li> 
                             <li><a href="faq.html" class="link">FAQ</a></li>
-                            <li><a href="#">Site Map</a></li>
+                            <li><a href="sitemap.html">Site Map</a></li>
                             <li><a href="login.html">Order Status</a></li>
                         </ul> 
                     </div>
@@ -1520,13 +1370,13 @@
 
 
     </div>
-</div> <!-- End Footer top -->
+</div>
 
 <div class="footer-bottom">
     <p class="footer-credit">
-        &copy;<script type="text/javascript">document.write(new Date().getFullYear())</script> - All rights reserved <a href="index.html">Your shop</a> | Designed by <a href="https://maniruzzaman-akash.blogspot.com"> Maniruzzaman Akash </a>
+        &copy;2017 - All rights reserved <a href="index.html">Your shop</a> | Designed by <a href="https://maniruzzaman-akash.blogspot.com"> Maniruzzaman Akash </a>
     </p>
-</div> <!--End Footer bottom -->
+</div>
 
 <div class="scroll">
     <a href="#top" class="scroll-to-top hidden">
@@ -1534,33 +1384,25 @@
     </a>
 </div>
 
-
 </div> <!-- End wrapper -->
 
 
 
 <!-- Scripts -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
-
-<script type="text/javascript">
-    jQuery(document).ready(function() {
-        // alert('test message');
-
-        // var bd_phone_pattern = /^(?:\+88|01)?\d{11}$/;
-        // var contact1 = "01951233084";
-        // var contact2 = "+8801951233084";
-        // alert(bd_phone_pattern.test(contact1));
-        // if (bd_phone_pattern.test(contact1)) {
-        //     alert('Regexp Has Matched');
-        // }else{
-        //     alert('Regexp Hasn\'t Matched');
-        // }
-    });
-</script>
-
-
-
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+<script src="js/jquery.flexslider.js" type="text/javascript"></script>
+<script>
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails"
+    });
+  });
+</script>
+<!--flex slider-->
+<script src="js/imagezoom.js" type="text/javascript"></script>
 
 <script src="js/wow.min.js"></script>
 
