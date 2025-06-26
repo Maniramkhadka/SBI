@@ -2028,33 +2028,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     window.open(whatsappURL, '_blank');
                 });
             }
-
-            // Quick Contact Widget functionality
-            var quickContactWidget = document.getElementById('quickContactWidget');
-            var closeQuickContact = document.getElementById('closeQuickContact');
-            var contactToggleBtn = document.getElementById('contactToggleBtn');
-            
-            // Close quick contact widget
-            closeQuickContact.onclick = function() {
-                quickContactWidget.classList.add('hidden');
-                contactToggleBtn.classList.add('show');
-            }
-            
-            // Show quick contact widget
-            contactToggleBtn.onclick = function() {
-                quickContactWidget.classList.remove('hidden');
-                contactToggleBtn.classList.remove('show');
-            }
-            
-            // Auto-hide after 10 seconds on mobile
-            if (window.innerWidth <= 768) {
-                setTimeout(function() {
-                    if (!quickContactWidget.classList.contains('hidden')) {
-                        quickContactWidget.classList.add('hidden');
-                        contactToggleBtn.classList.add('show');
-                    }
-                }, 10000);
-            }
         });
     </script>
 </body>
