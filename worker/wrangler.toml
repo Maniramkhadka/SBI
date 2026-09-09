@@ -1,0 +1,15 @@
+name = "national-mobile-admin-api"
+main = "worker.js"
+compatibility_date = "2026-09-09"
+
+[vars]
+GITHUB_OWNER = "Maniramkhadka"
+GITHUB_REPO = "SBI"
+GITHUB_BRANCH = "main"
+DATA_PATH = "data/products.json"
+ALLOWED_ORIGIN = "https://www.sbi.com.np"
+
+# Add these as Cloudflare Secrets, never as plain vars:
+# GITHUB_TOKEN
+# ADMIN_USERNAME
+# ADMIN_PASSWORD
